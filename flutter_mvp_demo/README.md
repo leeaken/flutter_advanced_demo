@@ -5,7 +5,7 @@
 
 # MVP结构图
 ![img](https://github.com/leeaken/flutter_advanced_demo/blob/master/flutter_mvp_demo/screenshotcuts/2.jpg)
-![img](https://github.com/leeaken/flutter_advanced_demo/blob/master/flutter_mvp_demo/screenshotcuts/3.jpg)
+![img](https://github.com/leeaken/flutter_advanced_demo/blob/master/flutter_mvp_demo/screenshotcuts/1.jpg)
 
 # 一、介绍<br>
 ## 1、模型（Model）<br>
