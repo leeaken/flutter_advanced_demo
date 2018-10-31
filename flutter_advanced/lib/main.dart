@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_advanced/animaiton/pages/animation_page.dart';
+import 'package:flutter_advanced/animaiton/pages/dot_loading_page.dart';
 import 'package:flutter_advanced/dashboard/pages/dashboard_page.dart';
 import 'package:flutter_advanced/home/page/home_page.dart';
 import 'package:flutter_advanced/login/login_page.dart';
@@ -24,7 +26,9 @@ class MyApp extends StatelessWidget {
         UIData.shopRoute: (BuildContext context) => ShoppingHomePage(),
         UIData.profileRoute: (BuildContext context) => ProfilePage(),
         UIData.movieRoute: (BuildContext context) => MovieListPage(),
-        UIData.dashboardRoute: (BuildContext context) => DashboardPage()
+        UIData.dashboardRoute: (BuildContext context) => DashboardPage(),
+        UIData.animationRoute: (BuildContext context) => AnimationPage(),
+        UIData.dotLoadingRoute: (BuildContext context) => DotLoadingPage()
       }
     );
   }

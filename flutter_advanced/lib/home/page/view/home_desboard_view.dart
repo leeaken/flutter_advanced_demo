@@ -63,6 +63,8 @@ class _HomeDesboardViewState extends State<HomeDesboardView> {
               child: MovieListPage(),
             );
       }));
+    }else if(index == 6) {
+      Navigator.pushNamed(_context, UIData.animationRoute);
     }
     print("$index");
   }

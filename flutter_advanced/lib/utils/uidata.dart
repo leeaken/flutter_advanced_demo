@@ -8,6 +8,8 @@ class UIData {
   static const String profileRoute = "/profile";
   static const String movieRoute = "/movielist";
   static const String dashboardRoute = "/dashboardPage";
+  static const String animationRoute = "/animationPage";
+  static const String dotLoadingRoute = "/dotLoadingPage";
 
   //主题
   static ThemeData theme = new ThemeData(primarySwatch: Colors.amber);
